@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories</title>
+    <style>
+      body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #C19A6B;
+            color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .rounded-frame {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #fff;
+        }
+
+        .rounded-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffdbac;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .heading {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .heading h1 {
+            font-size: 3em;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        .heading h2 {
+            font-size: 1.5em;
+            color: #555;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+        .product-column {
+            width: 31%;
+            margin-bottom: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+          
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart-btn {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #cdcbc8;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .add-to-cart-btn:hover {
+            background-color: #ffffff;
+        }
+
+        /* Smaller pictures for the products */
+        @media (max-width: 767px) {
+            .product-column {
+                width: 100%;
+            }
+
+            .product-card img {
+                width: 80%;
+            }
+        }
+
+        /* Centered link styling */
+        .link-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .link_product {
+            display: inline-block;
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link_product:hover {
+            background-color: #1b1311;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <main>
+        <div class="main-content">
+            <div class="heading">
+                <h1>Shoes</h1>
+                <h2>Explore our shoes products !</h2>
+            </div>
+
+            <div class="product-container">
+                <!-- Left column cards -->
+                <div class="product-column">
+                    <div class="product-card">
+                        <img src="images/accessories.png" alt="Product 1">
+                        <h3>Burn & Bread Slides</h3>
+                        <h4>RM89.00</h4>
+                
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Middle column cards -->
+                <div class="product-column">
+                    <div class="product-card">
+                        <img src="images/new2.jpg" alt="Product 2">
+                        <h3>SCBA Boston Sweat Sandals</h3>
+                        <h4>RM139.00</h4>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+            
+        </div>
+    </main>
+    <section class="info">
+        <div class="information">
+          <p>Copyright; 2023 SCBAMY. All rights reserved.</p>
+        </div>
+    </section>
+</body>
+
+</html>

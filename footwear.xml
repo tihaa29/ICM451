@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="footwear.xsl"?>
+
+<productslist>
+	<Product>
+		<No.>1.</No.>
+		<Category>(Footwear) Slides</Category>
+		<ProductName>Burn and Bread Slides</ProductName>
+		<ProductPrice>RM89</ProductPrice>
+		<Size>Available 39-43</Size>
+		<Gender>Men</Gender>
+	</Product>
+	
+	<Product>
+		<No.>2.</No.>
+		<Category>(Footwear) Sandals</Category>
+		<ProductName>SCBA Boston Sweat Sandals</ProductName>
+		<ProductPrice>RM139</ProductPrice>
+		<Size>Available 39-43</Size>
+		<Gender>Men</Gender>
+	</Product>
+
+</productslist>

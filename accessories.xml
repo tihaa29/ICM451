@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="accessories.xsl"?>
+
+<productslist>
+	<Product>
+		<No.>1.</No.>
+		<Category>Caps</Category>
+		<ProductName>Smokey SNL 6 Panel</ProductName>
+		<ProductPrice>RM79</ProductPrice>
+		<Gender>Men</Gender>
+	</Product>
+	
+	<Product>
+		<No.>2.</No.>
+		<Category>Caps</Category>
+		<ProductName>SCBA SNL Corduroy Cap</ProductName>
+		<ProductPrice>RM89</ProductPrice>
+		<Gender>Men</Gender>
+	</Product>
+	
+	<Product>
+		<No.>3.</No.>
+		<Category>Socks</Category>
+		<ProductName>SCBA Basic Font Socks</ProductName>
+		<ProductPrice>RM29</ProductPrice>
+		<Gender>Unisex</Gender>
+	</Product>
+	
+	<Product>
+		<No.>4.</No.>
+		<Category>Shades</Category>
+		<ProductName>SCBA Shades</ProductName>
+		<ProductPrice>RM79</ProductPrice>
+		<Gender>Unisex</Gender>
+	</Product>
+
+</productslist>

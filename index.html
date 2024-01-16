@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Collection</title>
+        <link rel="stylesheet" type="text/css"href="css/style.css">
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+         <!-- ... -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- ... -->
+   </head>
+<body>
+
+<header>
+  <nav>
+  <div class="menu" style="margin-left: 280;">
+    <a href="index.html">HOME</a>
+    <a href="new.html">NEW ARRIVALS</a>
+    <a href="shop.html">SHOP</a>
+    <a href="collection.html">COLLECTION</a>
+    <a href="about.html">ABOUT</a>
+    <a href="signup.html">SIGNUP</a>
+  </div>
+
+<style>
+  .image-slider {
+    width: 1200px;
+    margin: -23 -90;
+  }
+
+  .image-slider img {
+    width: 1200px;
+    height:100%;
+    background-size: cover ;
+    background-position: top center; 
+    position: flex;
+  }
+</style>
+
+<script>
+  $(document).ready(function(){
+    $('.image-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    });
+  });
+</script>
+
+
+</header>
+
+<div class="logo">
+<a>SCBAMY.</a>
+</div>
+
+
+<!-- image slider -->
+<main>
+  <div class="image-slider">
+    <div><img src="images/1(1).png" alt="Image 1"></div>
+    <div><img src="images/2(1).png" alt="Image 2"></div>
+    <div><img src="images/3(1).png" alt="Image 3"></div>
+  </div>
+
+  <!-- ... -->
+</main>
+
+<div class="update-cart">
+  <div class="cart">
+    <img src="images/1.png" alt="">
+  </div>
+
+  <div class="cart">
+    <img src="images/2.png" style="padding-bottom: 10px;" alt="">
+  </div>
+
+  <div class="cart">
+    <img src="images/3.png" alt="">
+  </div>
+</div>
+  <br>
+  <section class="info">
+    <div class="information">
+      <p>Copyright; 2023 SCBAMY. All rights reserved.</p>
+    </div>
+  </section>
+</body>
+</html>
